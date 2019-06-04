@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-# pandas 的索引建议使用 .at .iat .loc .iloc .ix
+# pandas 的索引建议使用 .loc .iloc .at .iat
 
 dates = pd.date_range('20170101', periods=6)
 df = pd.DataFrame(np.random.randn(6,4), index=dates, columns=list('ABCD'))
