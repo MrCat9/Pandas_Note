@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 
 # pandas 的索引建议使用 .loc .iloc .at .iat
+# .loc 根据行或列的标签索引
+# .iloc 根据行或列的下标索引
 
 dates = pd.date_range('20170101', periods=6)
 df = pd.DataFrame(np.random.randn(6,4), index=dates, columns=list('ABCD'))
