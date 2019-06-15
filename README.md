@@ -33,3 +33,15 @@ https://blog.csdn.net/MsSpark/article/details/83154128
 处理DataFrame中的空值
 https://www.cnblogs.com/sunbigdata/p/7895295.html
 ```
+
+7_DataFrame的基本操作
+```
+DataFrame基本操作  两个DataFrame的合并  contact  append  merge
+https://blog.csdn.net/weixin_38285131/article/details/82258131
+```
+
+8_read_csv
+```
+pandas.read_csv参数整理
+https://www.cnblogs.com/datablog/p/6127000.html
+```
