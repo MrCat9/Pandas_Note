@@ -51,3 +51,10 @@ https://blog.csdn.net/weixin_38285131/article/details/82258131
 pandas.read_csv参数整理
 https://www.cnblogs.com/datablog/p/6127000.html
 ```
+
+10_DataFrame转dict
+```
+population_data = pd.read_csv('population.csv', encoding='GBK', header=None, names=['省市', '人口数'])  # DataFrame
+population_dict = population_data.set_index('省市').T.to_dict('list')  # dict  # set_index() 设置索引
+```
+
