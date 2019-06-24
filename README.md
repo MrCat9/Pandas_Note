@@ -58,3 +58,8 @@ population_data = pd.read_csv('population.csv', encoding='GBK', header=None, nam
 population_dict = population_data.set_index('省市').T.to_dict('list')  # dict  # set_index() 设置索引
 ```
 
+11_DataFrame, Series, ndarray, list, dict, tuple的相互转换
+```
+https://blog.csdn.net/lambsnow/article/details/78517340
+```
+
