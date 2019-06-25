@@ -28,13 +28,13 @@ Pandas之排序函数sort_values()
 https://blog.csdn.net/MsSpark/article/details/83154128
 ```
 
-6_fillna
+6_fillna处理空值
 ```
 处理DataFrame中的空值
 https://www.cnblogs.com/sunbigdata/p/7895295.html
 ```
 
-7_dropna
+7_dropna去除空值
 ```
 删除DataFrame中值全为NaN或者包含有NaN的列或行
 https://blog.csdn.net/erinapple/article/details/80729726
