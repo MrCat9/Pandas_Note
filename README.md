@@ -63,3 +63,9 @@ population_dict = population_data.set_index('省市').T.to_dict('list')  # dict 
 https://blog.csdn.net/lambsnow/article/details/78517340
 ```
 
+12_DataFrame的创建
+```
+https://www.cnblogs.com/datasnail/p/9675410.html
+```
+
+
