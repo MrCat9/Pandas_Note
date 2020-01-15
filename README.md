@@ -83,6 +83,12 @@ https://blog.csdn.net/yvettre/article/details/79726396
 
 https://blog.csdn.net/u012735708/article/details/84542326
 
+#### [17_describe方法](https://github.com/MrCat9/Pandas_Note/blob/master/pandas_describe.py)
+
+```
+生成统计值，可以进行数据概览。
+生成的统计值包括： count, mean, std, min, 25%, 50%, 75%, max
+```
 
 
 
