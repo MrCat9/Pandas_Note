@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# describe
+# describe()方法
 
 
 import pandas as pd
