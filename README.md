@@ -71,5 +71,19 @@ https://www.cnblogs.com/abella/p/11125466.html
 
 https://blog.csdn.net/mzpmzk/article/details/89188968
 
+#### [15_DataFrame的groupby和agg](https://github.com/MrCat9/Pandas_Note/blob/master/df_groupby_agg.py)
+
+https://blog.csdn.net/weixin_38168620/article/details/82149197
+
+https://www.cnblogs.com/vczh/p/6746935.html
+
+#### dataframee进行groupby后求众数mode
+
+https://blog.csdn.net/yvettre/article/details/79726396
+
+https://blog.csdn.net/u012735708/article/details/84542326
+
+
+
 
 
