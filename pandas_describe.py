@@ -6,6 +6,21 @@ import pandas as pd
 
 
 df = pd.DataFrame({'A': ['a', 'a', 'a', 'a', 'b', 'b', 'b', 'b', 'b'], 'B': [1, 1, 2, 3, 1, 2, 2, 3, 3]})
+
+df
+'''
+   A  B
+0  a  1
+1  a  1
+2  a  2
+3  a  3
+4  b  1
+5  b  2
+6  b  2
+7  b  3
+8  b  3
+'''
+
 df.describe()  # 可以使用 to_csv() 后在 Excel 中操作
 '''
               B
