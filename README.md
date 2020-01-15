@@ -77,7 +77,7 @@ https://blog.csdn.net/weixin_38168620/article/details/82149197
 
 https://www.cnblogs.com/vczh/p/6746935.html
 
-#### dataframee进行groupby后求众数mode
+#### 16_DataFrame进行groupby后求众数mode
 
 https://blog.csdn.net/yvettre/article/details/79726396
 
