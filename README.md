@@ -90,6 +90,10 @@ https://blog.csdn.net/u012735708/article/details/84542326
 生成的统计值包括： count, mean, std, min, 25%, 50%, 75%, max
 ```
 
+#### 18_对pandas中的字符串str处理
 
+https://www.cnblogs.com/P--K/p/11148250.html
 
+#### 19_巧用DataFrame布尔索引的方法删除特定行或列
 
+https://blog.csdn.net/sigtem/article/details/81735242
