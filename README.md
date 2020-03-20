@@ -97,3 +97,33 @@ https://www.cnblogs.com/P--K/p/11148250.html
 #### 19_巧用DataFrame布尔索引的方法删除特定行或列
 
 https://blog.csdn.net/sigtem/article/details/81735242
+
+#### 19_sample随机抽样
+
+https://www.cnblogs.com/webRobot/p/11484648.html
+
+#### 20_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
