@@ -104,7 +104,7 @@ https://www.cnblogs.com/webRobot/p/11484648.html
 
 #### 20_报错"ValueError: Cannot mask with non-boolean array containing NA / NaN values"
 
-```
+```python
 # df['sub_name'].str.contains('bee').unique()  # 发现有空的行
 df = df[df['sub_name'].notnull()]  # 去掉 sub_name 为空的行
 bee_df = df[df['sub_name'].str.contains('bee')]
