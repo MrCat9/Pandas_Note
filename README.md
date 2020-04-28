@@ -112,7 +112,11 @@ bee_df = df[df['sub_name'].str.contains('bee')]
 
 https://blog.csdn.net/Guo_ya_nan/article/details/81021158
 
+#### 21_DataFrame显示值省略的解决方法
 
+```python
+pd.set_option('max_colwidth',200)
+```
 
 
 
