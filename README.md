@@ -4,9 +4,9 @@ pandas 官网  http://pandas.pydata.org/
 
 ## 目录
 
-#### 1_pandas索引
+#### [1_pandas索引](https://github.com/MrCat9/Pandas_Note/blob/master/pandas_loc.py)
 
-#### 2_pandas读MySQL
+#### [2_pandas读MySQL](https://github.com/MrCat9/Pandas_Note/blob/master/pandas_use_mysql.py)
 
 #### 3_DataFrame.apply、merge、rename、drop_duplicates
 
