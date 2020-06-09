@@ -118,11 +118,13 @@ https://blog.csdn.net/Guo_ya_nan/article/details/81021158
 pd.set_option('max_colwidth',200)
 ```
 
+#### 22_melt
 
+```
+宽数据 -> 长数据
+```
 
-
-
-
+Pandas的melt的使用 https://blog.csdn.net/maymay_/article/details/80039677
 
 
 
