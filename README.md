@@ -126,9 +126,13 @@ pd.set_option('max_colwidth',200)
 
 Pandas的melt的使用 https://blog.csdn.net/maymay_/article/details/80039677
 
+#### 23_将df中的两列转为元组tuple的列表list
 
+`[(1a, 1b), (2a, 2b), ...]`
 
-
+```python
+r = list(zip(df['col1'], df['col2']))
+```
 
 
 
