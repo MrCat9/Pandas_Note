@@ -141,6 +141,7 @@ html_table_str = df.to_html()
 word = '关键字'
 html_table_str = html_table_str.replace(f'{word}', f'<span style="color: red">{word}</span>')  # 关键字加红
 html_table_str = html_table_str.replace(r'\n', '<br>')  # 换行
+html_table_str = html_table_str.replace(r'\t', '    ')  # 制表符
 with open('df.html', 'w') as f:
     f.write(html_table_str)
 ```
