@@ -155,6 +155,7 @@ import pandas as pd
 
 fp = 'file_path'
 ff = fp[fp.rfind('.') + 1:]  # file_format 文件格式
+ff = ff.lower()
 if ff == 'xls':
 	df = pd.read_excel(fp)
 elif ff == 'xlsx':
