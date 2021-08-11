@@ -134,7 +134,7 @@ Pandas的melt的使用 https://blog.csdn.net/maymay_/article/details/80039677
 r = list(zip(df['col1'], df['col2']))
 ```
 
-####  24_将df转为html中的table的源码
+#### 24_将df转为html中的table的源码
 
 ```python
 html_table_str = df.to_html()
@@ -146,7 +146,7 @@ with open('df.html', 'w') as f:
     f.write(html_table_str)
 ```
 
-####                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     25_`pandas.read_excel`读`xlsx`和`xlsm`
+#### 25_`pandas.read_excel`读`xlsx`和`xlsm`
 
 `pandas==1.1.5`无法使用默认的引擎`xlrd`读`xlsx`和`xlsm`，会报错`xlrd.biffh.XLRDError: Excel xlsx file; not supported`。需选择引擎为`openpyxl`。
 
@@ -166,7 +166,9 @@ else:
 	raise ('unknown file format')
 ```
 
+#### 26_透视表`pivot_table`
 
+[一文看懂pandas的透视表pivot_table](https://www.cnblogs.com/Yanjy-OnlyOne/p/11195621.html)
 
 
 
