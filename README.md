@@ -172,3 +172,24 @@ else:
 
 #### [27_pandas加速优化](https://github.com/MrCat9/Pandas_Note/blob/master/pandas_acc.ipynb)
 
+#### [28_给定时间戳，匹配与它最接近的旧值](https://blog.csdn.net/domodo2012/article/details/111573679)
+
+```python
+pd.merge_asof(left_df, right_df,
+             on='time',
+             by='area')
+```
+
+```python
+df = pd.read_csv('xxxx.csv')
+df['date'] = pd.to_datetime(df['date'])
+df = df.set_index(keys='date')
+idx = df.index.get_loc(pd.to_datetime('2019-05-12'), 'nearest')
+ser_nearest = df.iloc[idx]
+
+
+def get_nearest(df, t):
+    idx = df.index.get_loc(t, 'nearest')
+    return data.iloc[idx]
+```
+
