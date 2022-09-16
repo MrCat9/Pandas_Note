@@ -10,33 +10,33 @@ pandas 官网  http://pandas.pydata.org/
 
 3. #### DataFrame.apply、merge、rename、drop_duplicates
 
-   DataFrame.apply、merge、rename，数据预处理、DataFrame.drop_duplicates去重    DataFrame合并、对Series或DataFrame去重  https://blog.csdn.net/weixin_42398658/article/details/82936185
+    DataFrame.apply、merge、rename，数据预处理、DataFrame.drop_duplicates去重    DataFrame合并、对Series或DataFrame去重  https://blog.csdn.net/weixin_42398658/article/details/82936185
 
-   Series和DataFrame都有drop_duplicates，但两者有点不一样（可传入的参数不一样）
+    Series和DataFrame都有drop_duplicates，但两者有点不一样（可传入的参数不一样）
 
 4. #### DataFrame.merge
 
-   https://blog.csdn.net/qq_21840201/article/details/80727504
+    https://blog.csdn.net/qq_21840201/article/details/80727504
 
 5. #### DataFrame排序
 
-   Pandas之排序函数sort_values()  https://blog.csdn.net/MsSpark/article/details/83154128
+    Pandas之排序函数sort_values()  https://blog.csdn.net/MsSpark/article/details/83154128
 
 6. #### fillna处理空值
 
-   处理DataFrame中的空值  https://www.cnblogs.com/sunbigdata/p/7895295.html
+    处理DataFrame中的空值  https://www.cnblogs.com/sunbigdata/p/7895295.html
 
 7. #### dropna去除空值
 
-   删除DataFrame中值全为NaN或者包含有NaN的列或行  https://blog.csdn.net/erinapple/article/details/80729726
+    删除DataFrame中值全为NaN或者包含有NaN的列或行  https://blog.csdn.net/erinapple/article/details/80729726
 
 8. #### DataFrame的基本操作
 
-   DataFrame基本操作  两个DataFrame的合并  contact  append  merge  https://blog.csdn.net/weixin_38285131/article/details/82258131
+    DataFrame基本操作  两个DataFrame的合并  contact  append  merge  https://blog.csdn.net/weixin_38285131/article/details/82258131
 
 9. #### read_csv
 
-   pandas.read_csv参数整理  https://www.cnblogs.com/datablog/p/6127000.html
+    pandas.read_csv参数整理  https://www.cnblogs.com/datablog/p/6127000.html
 
 10. #### DataFrame转dict
 
@@ -203,4 +203,6 @@ pandas 官网  http://pandas.pydata.org/
 
     [pandas的替换和部分替换](https://blog.csdn.net/wblylh/article/details/113574129)
 
-31. #### 
+31. ####  
+
+32. #### 
