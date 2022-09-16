@@ -156,13 +156,13 @@ pandas 官网  http://pandas.pydata.org/
     ff = fp[fp.rfind('.') + 1:]  # file_format 文件格式
     ff = ff.lower()
     if ff == 'xls':
-    	df = pd.read_excel(fp)
+        df = pd.read_excel(fp)
     elif ff == 'xlsx':
-    	df = pd.read_excel(fp, engine='openpyxl')
+        df = pd.read_excel(fp, engine='openpyxl')
     elif ff == 'xlsm':
-    	df = pd.read_excel(fp, engine='openpyxl')
+        df = pd.read_excel(fp, engine='openpyxl')
     else:
-    	raise ('unknown file format')
+        raise ('unknown file format')
     ```
 
 27. #### 透视表`pivot_table`
